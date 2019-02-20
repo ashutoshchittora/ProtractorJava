@@ -48,3 +48,14 @@ for(var t=0;t<5;t++){
 for(var m=0;m<c.length;m++){
 	console.log(c[m]);
 }
+
+//String Functions
+var name = " TheBestTester ";
+console.log(name.charAt(2));
+console.log(name.indexOf("B"));
+console.log(name.concat("Concat Action Performed"));
+console.log(name.slice(3,5)); // starting index = inclusive && ending index = exclusive
+console.log(name.toUpperCase());
+console.log(name.trim());
+
+var city = new String("Pune"); // creating a string object
