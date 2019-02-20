@@ -2,6 +2,7 @@ describe('ChainLocators', function() {
 	
 	it('TestCaseChainLocator', function() {
 		browser.get('http://juliemr.github.io/protractor-demo/');
+		browser.manage().window().maximize();
 		element(by.model("first")).sendKeys("31");
 		element(by.model("second")).sendKeys("15");
 		element(by.id("gobutton")).click();
