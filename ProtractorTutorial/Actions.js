@@ -1,4 +1,18 @@
-// https://posse.com , https://immi.homeaffairs.gov.au , https://book.flytap.com
+/*http://www.wikiwand.com/
+https://www.upwork.com/o/profiles/browse/c/web-mobile-software-dev/sc/qa-testing/?q=selenium%20automation
+https://www.gettyimages.in/
+https://www.istockphoto.com/in
+https://disneycruise.disney.go.com/
+https://www.tsn.ca/
+https://genius.com/
+https://www.ford.com/
+https://www.hopscotch.in/
+https://prerender.io/
+https://www.exambazaar.com/
+https://ga.me/
+https://goodfil.ms/
+*/
+
 describe('Actions demo', function() {
 		it(	'Open Ryanair website',function() {
 			// moving the mouse into that textbox
