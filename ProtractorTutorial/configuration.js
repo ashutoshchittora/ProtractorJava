@@ -2,7 +2,7 @@ exports.config = {
 		seleniumAddress:'http://localhost:4444/wd/hub',
 		// seleniumAddress parameter is not mandatory . you can comment above and script will run seamless.For firefox execution, start selenium sever.
 		// protractor will take the configuration from Appdata>npm>selenium>
-		specs:['NonAngularSynchronization.js',],
+		specs:['SampleApplication.js',],
 		capabilities: {
 			 	browserName: 'chrome',
 			    acceptSslCerts: true,
